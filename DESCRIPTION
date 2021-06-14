@@ -1,0 +1,15 @@
+Package: mySIDES
+Type: Package
+Title: Subgroup Identification Based on Differential Effect Search
+Version: 0.1.0
+Author: Me
+Maintainer: Me <zhaoxue@merck.com>
+Description: Provides function to apply "Subgroup Identification based on Differential Effect Search" (SIDES) method proposed by Lipkovich et al. (2011) <doi:10.1002/sim.4289>.
+License: GPL-3
+Encoding: UTF-8
+Imports: memoise (>= 1.0.0), nnet (>= 7.3-12), multicool (>= 0.1-9),
+        survival (>= 2.37-7), doParallel (>= 1.0.10), foreach (>=
+        1.4.3), MASS
+Depends: R (>= 3.1.2)
+NeedsCompilation: no
+RoxygenNote: 7.1.1
